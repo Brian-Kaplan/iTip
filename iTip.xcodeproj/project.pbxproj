@@ -14,6 +14,7 @@
 		D3A831101C0FF8BE00A325AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A8310E1C0FF8BE00A325AF /* LaunchScreen.storyboard */; };
 		D3A8311B1C0FF8BE00A325AF /* iTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8311A1C0FF8BE00A325AF /* iTipTests.swift */; };
 		D3A831261C0FF8BE00A325AF /* iTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A831251C0FF8BE00A325AF /* iTipUITests.swift */; };
+		D3F85B6B1C188F5400F88BE4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F85B6A1C188F5400F88BE4 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D3A831211C0FF8BE00A325AF /* iTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A831251C0FF8BE00A325AF /* iTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTipUITests.swift; sourceTree = "<group>"; };
 		D3A831271C0FF8BE00A325AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F85B6A1C188F5400F88BE4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D3A831041C0FF8BD00A325AF /* iTip */ = {
 			isa = PBXGroup;
 			children = (
+				D3F85B6A1C188F5400F88BE4 /* SettingsViewController.swift */,
 				D3A831051C0FF8BD00A325AF /* AppDelegate.swift */,
 				D3A831071C0FF8BD00A325AF /* ViewController.swift */,
 				D3A831091C0FF8BD00A325AF /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					D3A831011C0FF8BD00A325AF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 34375KW62H;
 					};
 					D3A831151C0FF8BE00A325AF = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -258,6 +262,7 @@
 			files = (
 				D3A831081C0FF8BD00A325AF /* ViewController.swift in Sources */,
 				D3A831061C0FF8BD00A325AF /* AppDelegate.swift in Sources */,
+				D3F85B6B1C188F5400F88BE4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodePath.iTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodePath.iTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				D3A8312C1C0FF8BE00A325AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3A8312D1C0FF8BE00A325AF /* Build configuration list for PBXNativeTarget "iTipTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				D3A8312F1C0FF8BE00A325AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3A831301C0FF8BE00A325AF /* Build configuration list for PBXNativeTarget "iTipUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				D3A831321C0FF8BE00A325AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

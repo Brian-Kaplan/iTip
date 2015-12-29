@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *iTp*
 
-**Name of your app** is a tip calculator application for iOS.
+**iTip** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Brian Kaplan**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented tipping app:
+Here's a walkthrough of implemented user stories:
 
 ![alt tag](https://raw.githubusercontent.com/Brian-Kaplan/iTip/master/iTipDemo.gif)
 
@@ -33,6 +33,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+- The animations were a slight challenge. Had it going for in the wrong direction for a little bit.
+- Working with Swift in general was a little challenging since this was my first encounter
 
 ## License
 
